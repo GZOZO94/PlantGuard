@@ -46,10 +46,11 @@
 		</div>
 	</nav>	
 	<div class="container-fluid">
+		<div class="row">
+		<div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
 		<div id="myCarousel" class="carousel slide" data-ride="carousel">
 			<ol class="carousel-indicators">
 				<li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-				<li data-target="#myCarousel" data-slide-to="1"></li>
 			</ol>
 			<div class="carousel-inner" role="listbox">
 				<div class="item active">
@@ -68,6 +69,10 @@
 				<span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
 				<span class="sr-only">Next</span>
 			</a>
+		<div class='col-md-6 col-lg-6'>
+		</div>
+		</div>
+		</div>
 		</div>
 	</div>
 	<div id="aboutSection" class="container-fluid">
