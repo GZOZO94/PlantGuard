@@ -1,4 +1,4 @@
-<!DOCTYPE HTML>
+﻿<!DOCTYPE HTML>
 <html lang="hu">
 <head>
 	<meta http-equiv="Content_Type" content="text/html; charset=utf-8">
@@ -33,7 +33,7 @@
 					<span class="icon-bar"></span>
 					<span class="icon-bar"></span>
 				</button>
-				<a id="about" href="#aboutSection" class="navbar-brand">The Future Software</a>
+				<a id="about" href="#aboutSection" class="navbar-brand">The Smart Gardener</a>
 			</div>
 			<div class="collapse navbar-collapse" id="hide">
 				<ul class="nav navbar-nav">
@@ -46,7 +46,7 @@
 		</div>
 	</nav>	
 	<div id="aboutSection" class="container-fluid">
-		<h2>R�lunk <small>The Future Software</small></h2>
+		<h2>Rólunk <small>The Smart Gardener</small></h2>
 		<blockquote class="well text-center">
 			
 		</blockquote>
