@@ -3,7 +3,7 @@
 <head>
 	<meta http-equiv="Content_Type" content="text/html; charset=utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<title>The future software</title>
+	<title>The Smart Gardener</title>
 	<link href="Pictures/logo.ico" rel="shortcut icon">
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
@@ -45,6 +45,31 @@
 			</div>
 		</div>
 	</nav>	
+	<div class="container-fluid">
+		<div id="myCarousel" class="carousel slide" data-ride="carousel">
+			<ol class="carousel-indicators">
+				<li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+				<li data-target="#myCarousel" data-slide-to="1"></li>
+			</ol>
+			<div class="carousel-inner" role="listbox">
+				<div class="item active">
+					<img src="Pictures/default.jpg" class='img img-responsive center-block' alt="TFS">
+					<div class="carousel-caption">
+						<h3>The Smart Gardener</h3>
+						<p>Save the world, save your plants!</p>
+					</div>
+				</div>
+			</div>
+			<a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+				<span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+				<span class="sr-only">Previous</span>
+			</a>
+			<a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+				<span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+				<span class="sr-only">Next</span>
+			</a>
+		</div>
+	</div>
 	<div id="aboutSection" class="container-fluid">
 		<h2>Rólunk <small>The Smart Gardener</small></h2>
 		<blockquote class="well text-center">
