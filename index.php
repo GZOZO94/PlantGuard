@@ -1,5 +1,6 @@
-﻿<!DOCTYPE HTML>
-<html lang="hu">
+﻿
+<!DOCTYPE HTML>
+<html lang="en" >
 <head>
 	<meta http-equiv="Content_Type" content="text/html; charset=utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
@@ -7,13 +8,8 @@
 	<link href="Pictures/l.ico" rel="shortcut icon">
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-	<link href='http://fonts.googleapis.com/css?family=Playfair+Display:900,400|Lato:300,400,700' rel='stylesheet' type='text/css'>
-	<link rel="stylesheet" type="text/css" href="normalize.css" />
-	<link rel="stylesheet" type="text/css" href="demo.css" />
-	<link rel="stylesheet" type="text/css" href="dragdealer.css" />
-	<link rel="stylesheet" type="text/css" href="component.css" />
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-	<script src="modernizr.custom.js"></script>
+
 	<script>
 	
 	$(document).ready(function(){
@@ -29,24 +25,40 @@
 	</script>
 </head>
 <body>
-	<header id="header" class="codrops-header">
-		<h1>The Smart Gardener</h1>
-		<button class="slider-switch">Switch view</button>
-	</header>
-	<div id="slideshow" class="dragslider">
-				<section class="img-dragger img-dragger-large dragdealer">
-					<div class="handle">
-						<div class="slide" data-content="content-1">
+	<nav class="navbar navbar-inverse">
+		<div class="container-fluid">
+			<div class="navbar-header">
+				<a id="about" href="#aboutSection" class="navbar-brand" style="text-align: center">The Smart Gardener</a>
+			</div>
+
+		</div>
+	</nav>
 	<div class="container-fluid">
-		<div class="row">
+		<div class="row ">
 			<div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
-				<div id="myCarousel" class="carousel slide" data-ride="carousel">
+				<div id="myCarousel" class="carousel slide " data-ride="carousel">
 					<ol class="carousel-indicators">
 						<li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+						<li data-target="#myCarousel" data-slide-to="1"></li>
+						<li data-target="#myCarousel" data-slide-to="2"></li>
 					</ol>
-					<div class="carousel-inner" role="listbox">
+					<div class="carousel-inner" role="listbox" >
 						<div class="item active">
-							<img src="Pictures/default.jpg" class='img img-responsive center-block' alt="TFS">
+							<img src="Pictures/logo.jpg" class='img img-responsive center-block' alt="TSG" data-toggle="modal" data-target="#myModal" style='width:100%;height:30em'>
+							<div class="carousel-caption">
+								<h3>The Smart Gardener</h3>
+								<p>Save the world, save your plants!</p>
+							</div>
+						</div>
+						<div class="item">
+							<img src="Pictures/default.jpg" class='img img-responsive center-block' alt="TSG" data-toggle="modal" data-target="#myModal" style='width:100%;height:30em'>
+							<div class="carousel-caption">
+								<h3>The Smart Gardener</h3>
+								<p>Save the world, save your plants!</p>
+							</div>
+						</div>
+						<div class="item">
+							<img src="Pictures/default2.jpg" class='img img-responsive center-block' alt="TSG" data-toggle="modal" data-target="#myModal" style='width:100%;height:30em'>
 							<div class="carousel-caption">
 								<h3>The Smart Gardener</h3>
 								<p>Save the world, save your plants!</p>
@@ -62,78 +74,64 @@
 						<span class="sr-only">Next</span>
 					</a>
 				</div>
-			<div class='col-md-6 col-lg-6'>
 			</div>
+			<div class="clearfix visible-xs visible-sm"></div>
+			<div class='col-md-6 col-lg-6 col-sm-0 col-xs-0'style='height:30em'>
+			<div class="well">
+					<h1>Oregánó</h1>      
+					<p style="text-align:justify">Az oregánó levelei zöldek, kb. 3-30 mm hosszúak és 2,5-20 mm szélesek. A levéllemez tojásdad alakú, néha elliptikus, szélei pedig vagy épek, vagy fűrészes szélűek. Az oregánó legtöbbünknek, ha máshonnan nem is, de a mostanában igencsak népszerű pizzériák étlapjáról biztosan ismerős. Nem véletlenül, hiszen az olasz tészták és pizzák klasszikus fűszere, de különféle zöldségekhez is előszeretettel használják. Azt viszont már biztos kevesen tudják, hogy itthon is használatos már igen régóta. Nagyszüleink leginkább a majoranna alternatívájaként alkalmazták. Van több magyar elnevezése is, úgy, mint szurokfű, vadmajoranna vagy balzsamfű.</p>
+					</div>
 			</div>
 		</div>
-	</div>
-	<div id="aboutSection" class="container-fluid">
-		<h2>Rólunk <small>The Smart Gardener</small></h2>
-		<blockquote class="well text-center">
-			
-		</blockquote>
-	</div>
-	<div class="container-fluid text-center">
-		<p>Copyright &copy; The Smart Gardener 2017</p>
-	</div>
-				</div>
-		</section>
-	<section class="pages">
-					<div class="content" data-content="content-1">
-						<h1>Adatok</h1>
-					</div>
-				</section>
+		<div class="row">
+			<div id="aboutSection" class="container-fluid">
+				<h2>About Us <small>The Smart Gardener</small></h2>
+				<blockquote class="well text-center">
+								
+				</blockquote>
 			</div>
-		<script src="dragdealer.js"></script>
-		<script src="classie.js"></script>
-		<script src="dragslideshow.js"></script>
-		<script>
-			$(document).ready(function() {
+			<div class="container-fluid text-center">
+				<p>Copyright &copy; The Smart Gardener 2017</p>
+			</div>
+		</div>
+		<div id="myModal" class="modal fade" role="dialog">
+  <div class="modal-dialog modal-lg">
 
-				var overlay = $( 'overlay' ),
-					overlayClose = overlay.querySelector( 'button' ),
-					header = $( 'header' )
-					switchBtnn = header.querySelector( 'button.slider-switch' ),
-					toggleBtnn = function() {
-						if( slideshow.isFullscreen ) {
-							classie.add( switchBtnn, 'view-maxi' );
-						}
-						else {
-							classie.remove( switchBtnn, 'view-maxi' );
-						}
-					},
-					toggleCtrls = function() {
-						if( !slideshow.isContent ) {
-							classie.add( header, 'hide' );
-						}
-					},
-					toggleCompleteCtrls = function() {
-						if( !slideshow.isContent ) {
-							classie.remove( header, 'hide' );
-						}
-					},
-					slideshow = new DragSlideshow( $('slideshow' ), { 
-						// toggle between fullscreen and minimized slideshow
-						onToggle : toggleBtnn,
-						// toggle the main image and the content view
-						onToggleContent : toggleCtrls,
-						// toggle the main image and the content view (triggered after the animation ends)
-						onToggleContentComplete : toggleCompleteCtrls
-					}),
-					toggleSlideshow = function() {
-						slideshow.toggle();
-						toggleBtnn();
-					},
-					closeOverlay = function() {
-						classie.add( overlay, 'hide' );
-					};
+    <!-- Modal content-->
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal">&times;</button>
+        <h4 class="modal-title">Adatok, diagramok</h4>
+      </div>
+      <div class="modal-body">
+		<div class="container-fluid">
+			<h1>Hőmérésklet</h1>
+			<div class="row">
+				<div class="jumbotron well">
+				<p>Diagram</p>
+				<p>Diagram</p>
+				<p>Diagram</p>
+				<p>Diagram</p>
+				</div>
+			</div>
+			<h1>Páratartalom</h1>
+			<div class="row">
+				<div class="jumbotron well">
+				<p>Diagram</p>
+				<p>Diagram</p>
+				<p>Diagram</p>
+				<p>Diagram</p>
+				</div>
+			</div>
+		</div>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+      </div>
+    </div>
 
-				// toggle between fullscreen and small slideshow
-				switchBtnn.addEventListener( 'click', toggleSlideshow );
-				// close overlay
-				overlayClose.addEventListener( 'click', closeOverlay );
-
-			}());
-		</script>
+  </div>
+</div>
+	</div>
 </body>
 </html>
